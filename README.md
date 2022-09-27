@@ -6,6 +6,8 @@ A Genshin Impact-themed suite for Rainmeter
 A Paimon-themed launcher shortcut based off the Paimon Menu icon in-game (and extracted from OST album art).
 
 ## ResinCounter
+
+**Currently does not function. Work is ongoing in #1**
 Accesses HoYoLAB API to provide an estimate of how much Resin you currently have in your account.
 
 Why open the app on your phone when you can just see it on your desktop right there? *"Security reasons" my ASS.*
