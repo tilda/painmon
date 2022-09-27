@@ -1,7 +1,7 @@
 function check_file(name)
-    local file = io.open(name, "r")
+    file = io.open(name, "r")
     if file~=nil then
-        file:close()
+        io.close(file)
         return true
     else 
         return false
@@ -9,7 +9,7 @@ function check_file(name)
 end
 
 function Initialize()
-    if (check_file("Secrets.inc")) then
+    if (check_file(SKIN:GetVariable("@").."Secrets.inc")) then
         print("Secrets file is already there, nothing to do")
         return
     else
@@ -25,4 +25,3 @@ function Initialize()
         print("Copied template")
     end
 end
-        
